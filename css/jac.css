@@ -1,0 +1,22 @@
+.hero.is-primary {
+  background-color: #cbd7dc !important;
+}
+.title{
+  color: #404040;
+}
+
+.image-hover-zoom {
+  display: inline-block;
+  overflow: hidden;
+  height: 64px;
+  width: 64px;
+}
+
+.image-hover-zoom img {
+  transition: transform 0.4s ease;
+  transform: scale(0.9);
+}
+
+.image-hover-zoom:hover img {
+  transform: scale(1.0);
+}
