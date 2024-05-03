@@ -38,12 +38,26 @@
     <div class="container has-text-centered">
       <div class="image-hover-zoom">
         <a href="https://github.com/jacastromad" target="_blank" title="GitHub">
-          <img src="img/github-mark.png" alt="GitHub">
+	  <picture>
+	    <!-- Dark mode -->
+	    <source srcset="img/github-mark-white.png" style="height: 64px; width: 64px;" media="(prefers-color-scheme: dark)">
+	    <!-- Light mode -->
+	    <source srcset="img/github-mark.png" style="height: 64px; width: 64px;" media="(prefers-color-scheme: light)">
+	    <!-- Fallback -->
+	    <img src="img/github-mark.png" style="height: 64px; width: 64px;" alt="Themed Image">
+	  </picture>
         </a>
       </div>
       <div class="image-hover-zoom">
         <a href="mailto:jacastromad@gmail.com" title="Send me an email">
-          <img src="img/email.png" alt="Email">
+	  <picture>
+	    <!-- Dark mode -->
+	    <source srcset="img/email-white.png" style="height: 64px; width: 64px;" media="(prefers-color-scheme: dark)">
+	    <!-- Light mode -->
+	    <source srcset="img/email.png" style="height: 64px; width: 64px;" media="(prefers-color-scheme: light)">
+	    <!-- Fallback -->
+	    <img src="img/email.png" style="height: 64px; width: 64px;" alt="Themed Image">
+	  </picture>
         </a>
       </div>
     </div>
